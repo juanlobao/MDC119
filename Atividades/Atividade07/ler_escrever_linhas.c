@@ -14,7 +14,7 @@ int main()
 
     if (arq == NULL)
     {
-        printf("Problema ao tentar abertura do arquivo\n");
+        printf("ERRO\n");
         return 0;
     }
 

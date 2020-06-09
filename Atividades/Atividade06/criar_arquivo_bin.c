@@ -9,7 +9,7 @@ int main()
 
     if (arq == NULL)
     {
-        printf("Problema ao abrir o arquivo");
+        printf("ERRO");
     }
     printf("Pressione uma tecla para finalizar..");
     getchar();

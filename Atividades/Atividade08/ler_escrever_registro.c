@@ -20,7 +20,7 @@ int main()
     arq = fopen("aluno.dat", "w+b");
     if (arq == NULL)
     {
-        printf("Problem ao abrir o arquivo\n");
+        printf("ERRO\n");
     }
     printf("Matricula: ");
     scanf("%s", aluno.matricula);
